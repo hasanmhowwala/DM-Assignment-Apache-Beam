@@ -28,8 +28,27 @@
    The output provides a summarized view of the total sales for each menu item, allowing for an analysis of the restaurant’s sales performance per menu item.
    Colab Link : https://colab.research.google.com/drive/1hOqlTe7_wnKNmDrWHq-BsSuLHzurMKyT?usp=sharing
 
-5. 
-   
+4. Apache Beam : Windowing : Input Dataset: water_consumption.csv
+   Apache Beam Pipeline: Windowing Transformation
+   The Apache Beam pipeline performs a windowing transformation to process the input dataset. The transformation involves the following steps:
+
+   Read from CSV: Reading water consumption records from the CSV file.
+   Assign Timestamps: Assigning timestamps to each record based on the Timestamp column.
+   Window into Fixed Intervals: Windowing the records into fixed intervals.
+   Calculate Average Consumption per Location: Calculating the average water consumption per location within each window, resulting in a (Location, AverageConsumption) pair for each 
+   window.
+
+   Output: average_consumption_per_location
+   The output consists of text files containing the aggregated results. Each line in the output files represents:
+
+   Location: The location where water consumption is recorded.
+   AverageConsumption: The average water consumption in liters for each location within the specified window intervals.
+   Description of Transformation
+   This pipeline is designed to analyze water consumption patterns over time at different locations. By windowing the data into fixed intervals and calculating the average consumption 
+   per location, it provides insights into water usage trends and variations at each location during different periods.
+   Colab Link : https://colab.research.google.com/drive/1wvsdvsbQ94mTQ_8928IwHSnRkpQDHduM?usp=sharing
+
+5. Apache Beam : Triggers : 
 
 
 
