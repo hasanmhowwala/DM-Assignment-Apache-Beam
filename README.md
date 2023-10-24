@@ -52,6 +52,7 @@
    Colab link : https://colab.research.google.com/drive/1N99LTveewAzYBD0zkEiQGYHeEyFpHvaQ?usp=sharing
 
 6. Auto EDA with your favorite tool(Part 2 of the assignment) : Input Dataset : Shootings.csv
+   report.html file shows the final output of the analysis
    Colab Link : https://colab.research.google.com/drive/1yFprICdWgUBnL3lyqTxPpIyy7kDgOXlb?usp=sharing
 
 
