@@ -48,7 +48,11 @@
    per location, it provides insights into water usage trends and variations at each location during different periods.
    Colab Link : https://colab.research.google.com/drive/1wvsdvsbQ94mTQ_8928IwHSnRkpQDHduM?usp=sharing
 
-5. Apache Beam : Triggers : 
+5. EDA Analysis of a Dataset using python libraries and vizualization(Part 1 of Assignment) : Input Dataset : Pokemon.csv
+   Colab link : https://colab.research.google.com/drive/1N99LTveewAzYBD0zkEiQGYHeEyFpHvaQ?usp=sharing
+
+6. Auto EDA with your favorite tool(Part 2 of the assignment) : Input Dataset : Shootings.csv
+   Colab Link : https://colab.research.google.com/drive/1yFprICdWgUBnL3lyqTxPpIyy7kDgOXlb?usp=sharing
 
 
 
